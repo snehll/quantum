@@ -30,14 +30,14 @@ export default function ContactPage() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4">
-                  MICROMEGAS Sp. z o.o.
+                  QUANTUM EUROPE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ
                 </h3>
                 <p className="text-muted-foreground">
                   Plac Bankowy 2, lok. 1309
                   <br />
                   00-095 Warszawa, Poland
                   <br />
-                  Email: info@micro-megas.com
+                  Email: witamy@quantum-eur.pl
                 </p>
               </div>
               <div>

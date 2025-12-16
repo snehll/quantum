@@ -15,7 +15,7 @@ export default function Footer() {
               <br />
               00-095 Warszawa, Poland
               <br />
-              NIP: 0001200404
+              NIP: 5253064961
             </p>
           </div>
           <div>
@@ -61,19 +61,12 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/privacy-policy"
-                  className="text-muted-foreground hover:text-primary">
-                  Terms of Service
-                </Link>
-              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <p className="text-sm text-muted-foreground space-y-2">
-              <span className="block">Email: info@micro-megas.com</span>
+              <span className="block">Email: witamy@quantum-eur.pl</span>
               <span className="block">Warsaw, Poland</span>
             </p>
           </div>
@@ -81,7 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-200 pt-8 text-center text-sm text-slate-600">
           © {new Date().getFullYear()} QUANTUM EUROPE SPÓŁKA Z OGRANICZONĄ
-          ODPOWIEDZIALNOŚCIĄ · NIP: 0001200404 · witamy@quantum-eur.pl
+          ODPOWIEDZIALNOŚCIĄ · NIP: 5253064961 · witamy@quantum-eur.pl
         </div>
       </div>
     </footer>
