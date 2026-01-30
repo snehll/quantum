@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
             <strong>Plac Bankowy 2, lok. 1309, 00-095 Warszawa, Poland</strong>,
             registration number <strong>0001200404</strong> (“QUANTUM EUROPE Sp.
             z o.o.”, “we”, “our”, or “us”), processes your personal data when
-            you visit our website <strong>[WEBSITE]</strong> (“Website”).
+            you visit our website <strong>https://quantum-eur.pl</strong> (“Website”).
           </p>
           <p>
             By using our Website and submitting your personal information
@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             <br />
             Email: witamy@quantum-eur.pl
             <br />
-            Website: [WEBSITE]
+            Website: https://quantum-eur.pl
           </p>
 
           <h2>2. Personal Data We Collect</h2>
@@ -248,7 +248,7 @@ export default function PrivacyPolicy() {
             <br />
             Email: witamy@quantum-eur.pl
             <br />
-            Website: [WEBSITE]
+            Website: https://quantum-eur.pl
           </p>
         </div>
       </div>
