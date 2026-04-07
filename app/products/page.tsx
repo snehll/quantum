@@ -2,6 +2,7 @@
 // src/app/products/page.tsx
 import AnimatedSection from "@/components/AnimatedSection";
 import { categories } from "@/constant";
+import Image from "next/image";
 
 export const metadata = { title: "Products & Spare Parts" };
 
@@ -37,11 +38,21 @@ export default function ProductsPage() {
                 <div className="group relative overflow-hidden rounded-3xl h-96 cursor-pointer shadow-xl">
                   {/* Image or STRONG emerald fallback */}
                   {cat.img ? (
-                    <img
-                      src={cat.img}
-                      alt={cat.title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
+                    cat.img.startsWith("http") ? (
+                      <img
+                        src={cat.img}
+                        alt={cat.title}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    ) : (
+                      <Image
+                        src={cat.img}
+                        alt={cat.title}
+                        width={600}
+                        height={600}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    )
                   ) : (
                     <div className="h-full bg-linear-to-br from-emerald-700 via-emerald-600 to-emerald-800" />
                   )}
