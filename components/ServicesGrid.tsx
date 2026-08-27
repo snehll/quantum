@@ -14,33 +14,33 @@ import AnimatedSection from "./AnimatedSection";
 const services = [
   {
     icon: Plane,
-    title: "Air Transportation",
-    desc: "Fast global air freight for urgent spare parts delivery",
+    title: "Spare Parts and Components",
+    desc: "Sourcing and supply of parts for industrial machinery, heavy equipment and engines.",
   },
   {
     icon: Truck,
-    title: "Heavy Transportation",
-    desc: "Oversized and heavy industrial equipment logistics",
+    title: "Product Identification",
+    desc: "We select products by manufacturer, model, part number, drawing or technical specification.",
   },
   {
     icon: Ship,
-    title: "Road & Intermodal Transport",
-    desc: "Efficient road, rail, and combined transport solutions",
+    title: "OEM and Aftermarket Parts",
+    desc: "Original components or suitable aftermarket alternatives, subject to availability and customer approval.",
   },
   {
     icon: Globe,
-    title: "Door-to-Door Air Cargo",
-    desc: "Complete pickup-to-delivery service worldwide",
+    title: "International Procurement",
+    desc: "Purchasing and supply of products from manufacturers and specialized suppliers worldwide.",
   },
   {
     icon: Package,
-    title: "Project Transportation",
-    desc: "Complex, multi-stage logistics for large projects",
+    title: "Commercial Documentation",
+    desc: "Quotations, contracts, invoices, packing lists and other documents, prepared for every order.",
   },
   {
     icon: Warehouse,
-    title: "Full Turnkey Logistics",
-    desc: "Procurement, storage, customs clearance, and final delivery",
+    title: "Delivery Coordination",
+    desc: "We coordinate delivery to the destination agreed with the customer.",
   },
 ];
 
@@ -50,15 +50,10 @@ export default function ServicesGrid() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Comprehensive Logistics & Supply Services
+            Industrial Spare Parts Supply
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            Every service is built around{" "}
-            <strong>
-              precision, documentation accuracy, and reliable timing
-            </strong>
-            . From single spare part to full turbine overhaul — we handle it
-            all.
+            We help business customers source and supply industrial spare parts, components and technical products. Each inquiry is reviewed individually by specification, quantity, availability and delivery requirements.
           </p>
         </div>
 

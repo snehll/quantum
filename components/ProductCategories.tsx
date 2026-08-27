@@ -10,10 +10,10 @@ export default function ProductCategories() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Spare Parts for All Major Equipment
+            Industrial Spare Parts and Components
           </h2>
           <p className="text-xl text-muted-foreground">
-            OEM & high-quality aftermarket — always available
+            Every product is sourced to the customer's requirements and supplied subject to availability and agreed commercial terms.
           </p>
         </div>
 

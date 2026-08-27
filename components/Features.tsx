@@ -4,23 +4,23 @@ import { Truck, Wrench, Globe, ShieldCheck } from "lucide-react";
 const features = [
   {
     icon: Globe,
-    title: "Worldwide Delivery",
-    desc: "Fast shipping to any country",
+    title: "International B2B Supply",
+    desc: "We work with industrial customers and suppliers across international markets.",
   },
   {
     icon: Truck,
-    title: "Turnkey Procurement",
-    desc: "We source, deliver, and install",
+    title: "Product Sourcing",
+    desc: "We source spare parts and components to the required specification, manufacturer or part number.",
   },
   {
     icon: Wrench,
-    title: "OEM & Aftermarket",
-    desc: "Original and high-quality alternatives",
+    title: "OEM & Aftermarket Options",
+    desc: "We offer original parts or compatible alternatives, depending on the product and its availability.",
   },
   {
     icon: ShieldCheck,
-    title: "Quality Guaranteed",
-    desc: "All parts tested and certified",
+    title: "Clear Documentation",
+    desc: "Every order comes with the commercial and shipping documents it needs.",
   },
 ];
 

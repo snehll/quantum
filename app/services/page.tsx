@@ -13,34 +13,34 @@ export const metadata = { title: "Services" };
 
 const services = [
   {
-    icon: Plane,
-    title: "Air Transportation",
-    desc: "Express air freight for urgent spare parts – 24-72h worldwide",
+    icon: PackageSearch,
+    title: "Product Sourcing",
+    desc: "We search for spare parts and components by manufacturer, model, part number or technical specification.",
   },
   {
     icon: Truck,
-    title: "Heavy & Oversized Transport",
-    desc: "Professional handling of turbines, generators, and large components",
+    title: "Wholesale Supply",
+    desc: "We purchase and resell industrial spare parts and components under separate commercial contracts and invoices.",
+  },
+  {
+    icon: Plane,
+    title: "OEM and Aftermarket Selection",
+    desc: "We can offer original products or suitable aftermarket alternatives, depending on availability and the customer's requirements.",
   },
   {
     icon: Ship,
-    title: "Sea & Intermodal Freight",
-    desc: "Cost-effective solutions with full tracking and documentation",
-  },
-  {
-    icon: PackageSearch,
-    title: "Turnkey Procurement",
-    desc: "We source, verify, pack, and deliver – you just receive",
+    title: "Technical Specification Matching",
+    desc: "Products are selected from the information provided by the customer — drawings, equipment models and technical specifications.",
   },
   {
     icon: FileCheck,
-    title: "Customs & Documentation",
-    desc: "Full export/import support across EU, Asia, Middle East",
+    title: "Commercial Documentation",
+    desc: "We prepare the documents each transaction needs: quotations, contracts, invoices and packing documents.",
   },
   {
     icon: Globe,
-    title: "Project Logistics",
-    desc: "End-to-end coordination for plant overhauls and greenfield projects",
+    title: "Delivery Coordination",
+    desc: "We coordinate delivery in line with the terms agreed for each order.",
   },
 ];
 
@@ -55,11 +55,10 @@ export default function ServicesPage() {
 
         <div className="relative container mx-auto px-6 text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl">
-            Our Services
+            Spare Parts Sourcing and Supply
           </h1>
           <p className="text-xl md:text-2xl text-white/95 max-w-4xl mx-auto drop-shadow-lg">
-            Full-cycle international logistics & procurement — designed for
-            industrial buyers who value speed and certainty
+            B2B sourcing and supply services for industrial companies that need spare parts, components and related technical products.
           </p>
         </div>
       </section>

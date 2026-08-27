@@ -1,9 +1,40 @@
 /* eslint-disable @next/next/no-img-element */
 // src/app/products/page.tsx
 import AnimatedSection from "@/components/AnimatedSection";
-import { categories } from "@/constant";
 import Image from "next/image";
 
+const categories = [
+  {
+    title: "Heavy Equipment and Engine Parts",
+    brands: "Replacement parts and components for industrial engines and heavy equipment.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdW4mnetDjKxhO8Uozkr4M_OyHbaAYAdgjg&s",
+  },
+  {
+    title: "Industrial Machinery Parts",
+    brands: "Parts and components for manufacturing, processing and other industrial machinery.",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/070/444/867/small/large-industrial-steam-turbine-generator-in-a-manufacturing-plant-photo.jpg",
+  },
+  {
+    title: "Mechanical Parts and Assemblies",
+    brands: "Mechanical components, replacement parts and assemblies for industrial applications.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4JenUtTt9wT9U4lg1B-vVdbCZ1OM8MXxmkg&s",
+  },
+  {
+    title: "Electrical and Control Components",
+    brands: "Electrical components, control parts and related products for industrial systems.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5P6OMkfjGtv6WIuUZGz_6JR-IagOit8cvw&s",
+  },
+  {
+    title: "Technical Materials and Consumables",
+    brands: "Technical materials, consumables and supporting products for industrial businesses.",
+    img: "https://www.ec-ma.com/wp-content/uploads/2018/11/pumps_market.jpg",
+  },
+  {
+    title: "Custom Product Requests",
+    brands: "Sourcing by a specific manufacturer, part number, equipment model, drawing or technical description.",
+    img: "https://images.squarespace-cdn.com/content/v1/5d27703ef624330001984515/ea5834d3-2825-4eb2-9af9-0fd304e34586/pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D0%BA%D0%B5-%D0%B1%D0%BB%D0%B0%D0%B6%D0%B8%D0%BD-8140124.jpg?format=2500w",
+  },
+];
 export const metadata = { title: "Products & Spare Parts" };
 
 export default function ProductsPage() {
@@ -20,11 +51,10 @@ export default function ProductsPage() {
 
         <div className="relative container mx-auto px-6 text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl">
-            Products & Spare Parts
+            Industrial Parts and Components
           </h1>
           <p className="text-xl md:text-2xl text-white/95 max-w-4xl mx-auto drop-shadow-lg">
-            OEM & high-quality aftermarket parts — always in stock or sourced
-            within days
+            We supply industrial spare parts, components and related technical products based on individual customer inquiries. Availability, specifications, origin and delivery terms are confirmed separately for each order.
           </p>
         </div>
       </section>
@@ -76,6 +106,14 @@ export default function ProductsPage() {
               </AnimatedSection>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-sm text-slate-500 max-w-4xl mx-auto">
+            All third-party trademarks and brand names belong to their respective owners and are used solely for product identification. QUANTUM EUROPE is not an authorized distributor of any manufacturer unless expressly confirmed in writing.
+          </p>
         </div>
       </section>
     </>

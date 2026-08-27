@@ -53,10 +53,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
           <h1 className="text-5xl md:text-7xl font-light text-white mb-6 leading-tight drop-shadow-2xl">
-            Trade without
+            Industrial Spare Parts
             <br />
             <span className="font-bold text-emerald-400 drop-shadow-2xl">
-              borders.
+              and Components
             </span>
           </h1>
 
@@ -65,8 +65,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-white/95 mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-xl">
-            We help industrial companies move products, equipment, and
-            technology seamlessly across Europe and beyond.
+            QUANTUM EUROPE supplies industrial spare parts, components and related technical products to business customers across international markets. We source every product to the customer's technical requirements and arrange supply under a separate commercial contract.
           </motion.p>
 
           <motion.div
@@ -78,14 +77,14 @@ export default function Hero() {
               asChild
               size="lg"
               className="px-12 py-7 bg-emerald-600 hover:bg-emerald-500 text-white text-lg font-light shadow-2xl backdrop-blur">
-              <Link href="/contact">Get in Touch</Link>
+              <Link href="/contact">Send an Inquiry</Link>
             </Button>
             <Button
               asChild
               size="lg"
               variant="outline"
               className="px-12 py-7 border-2 border-white text-white bg-transparent hover:bg-white/20 backdrop-blur text-lg font-light">
-              <Link href="/services">Our Services</Link>
+              <Link href="/products">View Products</Link>
             </Button>
           </motion.div>
         </motion.div>
